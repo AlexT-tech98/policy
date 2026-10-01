@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MEEHOASG — Chính sách lễ 20/10</title>
+<style>
+:root{--bg:#f8efea;--card:#fffdfc;--ink:#2f2827;--muted:#7a6b67;--burg:#7b2235;--red:#a13b4a;--pink:#f1d4d8;--line:#e5cec8}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+.wrap{max-width:980px;margin:auto;padding:24px 18px 72px}.hero{padding:54px 0 26px}.brand{font-weight:800;letter-spacing:.12em;color:var(--red);font-size:14px}
+h1{font-family:Georgia,serif;font-size:clamp(42px,7vw,76px);line-height:1.03;margin:14px 0;color:var(--burg)}.lead{font-size:18px;color:var(--muted);max-width:740px}
+.alert{background:var(--pink);border:1px solid #e7bcc3;padding:18px 20px;border-radius:18px;margin-top:26px;color:var(--burg)}
+.tabs{display:flex;gap:10px;position:sticky;top:0;background:rgba(248,239,234,.96);backdrop-filter:blur(10px);padding:14px 0;z-index:10}
+.tab{border:1px solid var(--line);background:white;padding:12px 16px;border-radius:999px;font-weight:800;cursor:pointer}.tab.active{background:var(--burg);color:#fff;border-color:var(--burg)}
+.panel{display:none}.panel.active{display:block}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:22px 0}
+.card{background:var(--card);border:1px solid #ead8d3;border-radius:22px;padding:22px}.card h3{margin:0 0 8px;color:var(--burg);font-size:20px}.card p{margin:0;color:var(--muted)}
+.section{margin-top:36px}.section h2{font-family:Georgia,serif;color:var(--burg);font-size:34px;margin:0 0 14px}
+.slots{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.slot{background:white;border-radius:18px;padding:18px;border:1px solid #ead8d3}.slot b{display:block;color:var(--red);font-size:13px;letter-spacing:.08em}.slot span{font-family:Georgia,serif;font-size:25px;color:var(--burg)}
+.price{display:grid;grid-template-columns:1.2fr 1fr;gap:10px;border-top:1px solid #ead8d3;padding:14px 0}.price:first-child{border-top:0}.price b{color:var(--burg)}
+.note{font-size:14px;color:var(--muted)}ul{padding-left:20px}.cta{margin-top:38px;background:var(--burg);color:white;border-radius:22px;padding:22px}.cta h3{margin-top:0}
+.lock{position:fixed;inset:0;background:rgba(47,40,39,.42);display:none;align-items:center;justify-content:center;padding:20px;z-index:50}
+.lock.show{display:flex}.dialog{width:min(420px,100%);background:white;border-radius:24px;padding:24px;box-shadow:0 24px 70px rgba(0,0,0,.22)}
+.dialog h3{font-family:Georgia,serif;color:var(--burg);font-size:28px;margin:0 0 8px}.dialog p{color:var(--muted);margin:0 0 16px}
+.dialog input{width:100%;padding:13px 14px;border:1px solid var(--line);border-radius:14px;font-size:18px;outline:none}
+.actions{display:flex;gap:10px;margin-top:14px}.actions button{flex:1;padding:12px;border:0;border-radius:14px;font-weight:800;cursor:pointer}.cancel{background:#f1ecea}.unlock{background:var(--burg);color:#fff}.error{color:#b4233d;font-size:14px;min-height:22px;margin-top:8px}
+@media(max-width:720px){.grid,.slots{grid-template-columns:1fr}.price{grid-template-columns:1fr}.hero{padding-top:34px}.tabs{overflow:auto}}
+@media print{.tabs,.lock{display:none!important}.panel{display:block!important}.wrap{max-width:none}.card,.slot{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<section class="hero">
+  <div class="brand">MEEHOASG · 20/10</div>
+  <h1>Chính sách lễ 18–20/10</h1>
+  <p class="lead">Thông tin ngắn gọn để khách hàng và cộng tác viên dễ tra cứu trong giai đoạn cao điểm.</p>
+  <div class="alert"><b>Lưu ý khi hủy đơn:</b> Với đơn nhận từ 18–20/10, sau khi shop đã xác nhận và bắt đầu chuẩn bị nguyên liệu, mình vui lòng cân nhắc kỹ trước khi chốt vì khoản thanh toán sẽ được dùng để chuẩn bị hoa và không thể hoàn lại nếu mình chủ động hủy đơn.</div>
+</section>
+
+<div class="tabs">
+  <button class="tab active" data-tab="customer">Dành cho khách hàng</button>
+  <button class="tab" id="partnerTab">CTV / Sale</button>
+</div>
+
+<section id="customer" class="panel active">
+  <div class="grid">
+    <div class="card"><h3>01 · Xác nhận đơn</h3><p>Đơn được xác nhận sau khi thanh toán 100% giá trị hoa để tiệm chủ động chuẩn bị nguyên liệu và lịch làm hoa.</p></div>
+    <div class="card"><h3>02 · Giao theo khung giờ</h3><p>Trong ngày cao điểm, tiệm sắp xếp giao theo khung giờ thay vì cam kết chính xác từng giờ.</p></div>
+    <div class="card"><h3>03 · Hình thức giao</h3><p>Khách có thể nhờ tiệm hỗ trợ đặt ship, người nhận thanh toán trực tiếp cho tài xế, hoặc khách tự đặt ship.</p></div>
+    <div class="card"><h3>04 · Về hoa</h3><p>Tiệm ưu tiên giữ đúng tone màu, phong cách, ngân sách và chất lượng; hoa phụ hoặc sắc độ có thể linh hoạt theo nguồn thực tế.</p></div>
+  </div>
+
+  <div class="section">
+    <h2>Khung giờ nhận hoa</h2>
+    <div class="slots">
+      <div class="slot"><b>SÁNG</b><span>08:00 – 12:00</span></div>
+      <div class="slot"><b>CHIỀU</b><span>13:00 – 17:00</span></div>
+      <div class="slot"><b>TỐI</b><span>18:00 – 22:00</span></div>
+    </div>
+    <p class="note">Nếu cần nhận vào một thời điểm cụ thể, mình nên chọn khung sớm hơn để có khoảng dự phòng do tình hình giao thông và tài xế có thể thay đổi.</p>
+  </div>
+
+  <div class="section">
+    <h2>Giao hàng & bảo quản</h2>
+    <div class="card">
+      <ul>
+        <li>Nếu tiệm hỗ trợ đặt ship và người nhận là người được tặng, phí ship sẽ được thanh toán trước cùng đơn.</li>
+        <li>Tiệm chưa thể cam kết thời gian di chuyển chính xác sau khi tài xế đã nhận hoa.</li>
+        <li>Hoa sau khi nhận có thể giữ tốt khoảng 8–12 tiếng nếu được bảo quản phù hợp; khách có thể liên hệ tiệm để được hướng dẫn.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Thay đổi & hủy đơn</h2>
+    <div class="card">
+      <p>Đơn đã xác nhận và chuyển sang chuẩn bị hoa sẽ hạn chế chỉnh sửa. Với đơn nhận từ <b>18–20/10</b>, sau khi shop đã xác nhận và bắt đầu chuẩn bị nguyên liệu, khoản thanh toán sẽ được dùng để chuẩn bị hoa và <b>không thể hoàn lại nếu khách chủ động hủy đơn</b>.</p>
+    </div>
+  </div>
+</section>
+
+<section id="partner" class="panel">
+  <div class="section">
+    <h2>Quy tắc nhận đơn dành cho CTV / Sale</h2>
+    <div class="grid">
+      <div class="card"><h3>Thanh toán</h3><p>Thu 100% tiền hoa trước khi xác nhận đơn. Nếu shop hỗ trợ book ship cho người nhận là người được tặng, phí ship cần được thanh toán trước cùng đơn và không áp dụng mã giảm giá/ưu đãi.</p></div>
+      <div class="card"><h3>Không để công nợ ship</h3><p>Ưu tiên 3 cách: khách tự book, người nhận trả trực tiếp cho shipper, hoặc shop book và thu ship trước.</p></div>
+      <div class="card"><h3>Không tự cam kết</h3><p>Không tự hứa giao đúng từng phút, free ship, giảm giá ngoài chương trình, giữ slot khi chưa thanh toán hoặc làm giống ảnh 100%.</p></div>
+      <div class="card"><h3>Hoa & mẫu</h3><p>Tư vấn theo tone, form, ngân sách và nhóm hoa chính. Hoa phụ, lá, giấy gói có thể thay tương đương theo nguồn thực tế.</p></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Checklist trước khi chốt đơn</h2>
+    <div class="card">
+      <p><b>Tên người nhận · SĐT · Ngày nhận · Khung giờ · Địa chỉ · Mẫu/Tone · Ngân sách · Nội dung thiệp · Hình thức giao · Tổng tiền · Thanh toán</b></p>
+      <p class="note">Thiếu thông tin quan trọng thì chưa tính là đơn đã chốt.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Bảng giá hoa lễ</h2>
+    <div class="card">
+      <div class="price"><b>Hoa lily</b><span>350K · 2 bông + mix<br>500K · 3 bông + mix<br>800K · 5 bông + mix<br>1.000K · 8 bông + mix</span></div>
+      <div class="price"><b>Hoa hồng</b><span>500K · 12 bông<br>800K · 20 bông<br>1.000K · 30 bông</span></div>
+      <div class="price"><b>Tulip</b><span>Từ 1.000K / 10 bông</span></div>
+      <div class="price"><b>Mix Garden</b><span>Tone xanh / hồng / vàng — từ 700K</span></div>
+      <div class="price"><b>Cẩm tú cầu</b><span>Từ 350K</span></div>
+      <div class="price"><b>Sophia / Chiết cành / Redlace</b><span>Từ 600K</span></div>
+      <div class="price"><b>Plume</b><span>Từ 800K</span></div>
+      <div class="price"><b>Cẩm tú cầu nhập</b><span>Từ 800K</span></div>
+    </div>
+    <p class="note">Hoa lily nhận các tone mix: hồng / trắng / xanh lá / xanh dương đậm – nhạt / nhuộm – sơn. Form và lượng hoa mix được florist cân chỉnh theo ngân sách.</p>
+  </div>
+
+  <div class="section">
+    <h2>Quy định hủy / chỉnh sửa</h2>
+    <div class="card">
+      <ul>
+        <li>Đơn nhận 18–20/10 sau khi đã xác nhận và bắt đầu chuẩn bị nguyên liệu: khoản thanh toán không thể hoàn lại nếu khách chủ động hủy đơn.</li>
+        <li>Đơn đã vào khâu chuẩn bị hoa: hạn chế đổi tone, đổi mẫu hoặc giảm ngân sách.</li>
+        <li>Thay đổi địa chỉ / thời gian giao phát sinh thêm phí thì báo khách thanh toán phần chênh lệch trước khi xử lý.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+</div>
+
+<div class="lock" id="lock">
+  <div class="dialog">
+    <h3>Khu vực CTV / Sale</h3>
+    <p>Nhập mật khẩu để xem bảng giá và quy định nội bộ.</p>
+    <input id="password" type="password" inputmode="numeric" autocomplete="off" placeholder="Mật khẩu">
+    <div class="error" id="error"></div>
+    <div class="actions">
+      <button class="cancel" id="cancelBtn">Đóng</button>
+      <button class="unlock" id="unlockBtn">Mở</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const customer = document.getElementById('customer');
+const partner = document.getElementById('partner');
+const partnerTab = document.getElementById('partnerTab');
+const customerTab = document.querySelector('[data-tab="customer"]');
+const lock = document.getElementById('lock');
+const password = document.getElementById('password');
+const error = document.getElementById('error');
+let unlocked = false;
+
+function showCustomer(){
+  customer.classList.add('active'); partner.classList.remove('active');
+  customerTab.classList.add('active'); partnerTab.classList.remove('active');
+}
+function showPartner(){
+  customer.classList.remove('active'); partner.classList.add('active');
+  customerTab.classList.remove('active'); partnerTab.classList.add('active');
+}
+customerTab.addEventListener('click', showCustomer);
+partnerTab.addEventListener('click', ()=>{
+  if(unlocked){ showPartner(); return; }
+  lock.classList.add('show'); password.value=''; error.textContent='';
+  setTimeout(()=>password.focus(),50);
+});
+document.getElementById('cancelBtn').addEventListener('click',()=>lock.classList.remove('show'));
+document.getElementById('unlockBtn').addEventListener('click',unlock);
+password.addEventListener('keydown',e=>{if(e.key==='Enter') unlock();});
+function unlock(){
+  if(password.value === '1314'){
+    unlocked = true;
+    lock.classList.remove('show');
+    showPartner();
+  }else{
+    error.textContent = 'Mật khẩu chưa đúng.';
+  }
+}
+lock.addEventListener('click',e=>{if(e.target===lock) lock.classList.remove('show');});
+</script>
+</body>
+</html>
